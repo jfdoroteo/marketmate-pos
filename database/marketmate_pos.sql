@@ -4,9 +4,6 @@ CREATE DATABASE IF NOT EXISTS marketmate_pos
 
 USE marketmate_pos;
 
--- Import this file into an empty database only. It is not a script for
--- updating an existing database because its tables already exist there.
-
 CREATE TABLE customers (
     id INT AUTO_INCREMENT PRIMARY KEY,
     full_name VARCHAR(100) NOT NULL,
