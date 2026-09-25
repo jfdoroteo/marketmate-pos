@@ -1,7 +1,7 @@
     </main>
     <footer class="site-footer">
         <div class="container">
-            <p> @MarketMate POS. Built with CodeIgniter 4.</p>
+            <p> @MarketMate POS.</p>
         </div>
     </footer>
     <script>

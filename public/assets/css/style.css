@@ -85,12 +85,16 @@ h3 { margin-bottom: 12px; font-size: 1.25rem; }
 .record-count, .role-badge { display: inline-block; border-radius: 999px; color: #41624a; background: #e4f0e5; font-size: .82rem; font-weight: 750; }
 .record-count { padding: 8px 13px; white-space: nowrap; }
 .role-badge { padding: 5px 10px; }
+.status-badge { display: inline-block; padding: 5px 10px; border-radius: 999px; font-size: .82rem; font-weight: 750; white-space: nowrap; }
+.status-badge.is-active { color: #41624a; background: #e4f0e5; }
+.status-badge.is-inactive { color: #83551f; background: #fff0df; }
 .table-card { overflow: hidden; border: 1px solid var(--line); border-radius: 18px; box-shadow: var(--shadow); }
 table { width: 100%; border-collapse: collapse; background: var(--surface); }
 th, td { padding: 18px 22px; text-align: left; }
 th { color: #516058; background: var(--soft-sage); font-size: .76rem; letter-spacing: .08em; text-transform: uppercase; }
 td { border-top: 1px solid var(--line); color: var(--muted); }
 td strong { color: var(--ink); }
+.table-subtext { display: block; color: var(--muted); font-size: .82rem; }
 tbody tr:hover { background: #fffaf3; }
 .site-footer { padding: 26px 0; color: #dce5ec; background: var(--ink); }
 .site-footer p { margin: 0; }
